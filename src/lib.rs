@@ -35,5 +35,5 @@ pub fn parse(markdown_input: &str) -> String {
     let expected_html: &str = "<p>Hello world, this is a <del>complicated</del> <em>very simple</em> example.</p>\n";
     assert_eq!(expected_html, &html_output);
 
-    format!("\nHTML output:\n{}", &html_output)
+    format!("{}", &html_output)
 }
