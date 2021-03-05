@@ -1,0 +1,6 @@
+name = "ontouchstart-rustwasm-markdown-parser"
+type = "rust"
+account_id = "b803dd2c82d57a285bfb5b82e72b52e7"
+workers_dev = true
+route = ""
+zone_id = ""
