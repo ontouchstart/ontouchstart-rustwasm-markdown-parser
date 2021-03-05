@@ -1,4 +1,4 @@
-https://ontouchstart-rustwasm-markdown-parser.ontouchstart.workers.dev/
+Hosted at [https://ontouchstart-rustwasm-markdown-parser.ontouchstart.workers.dev](https://ontouchstart-rustwasm-markdown-parser.ontouchstart.workers.dev).
 
 # 👷‍♀️🦀🕸️ `rustwasm-worker-template`
 
