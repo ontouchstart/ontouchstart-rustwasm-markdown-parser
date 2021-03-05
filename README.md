@@ -1,5 +1,13 @@
 Hosted at [https://ontouchstart-rustwasm-markdown-parser.ontouchstart.workers.dev](https://ontouchstart-rustwasm-markdown-parser.ontouchstart.workers.dev).
 
+The default markdown file is in this repo [https://github.com/ontouchstart/ontouchstart-rustwasm-markdown-parser/blob/master/README.md](https://github.com/ontouchstart/ontouchstart-rustwasm-markdown-parser/blob/master/README.md).
+
+You can also parse external **raw** markdown file from a src url like
+
+```
+[https://ontouchstart-rustwasm-markdown-parser.ontouchstart.workers.dev/?src=https://raw.githubusercontent.com/cloudflare/cloudflare-docs/production/products/workers/src/content/tutorials/hello-world-rust/index.md](https://ontouchstart-rustwasm-markdown-parser.ontouchstart.workers.dev/?src=https://raw.githubusercontent.com/cloudflare/cloudflare-docs/production/products/workers/src/content/tutorials/hello-world-rust/index.md)
+```
+
 # 👷‍♀️🦀🕸️ `rustwasm-worker-template`
 
 A template for kick starting a Cloudflare worker project using
