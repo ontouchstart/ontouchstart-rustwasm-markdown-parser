@@ -18,8 +18,11 @@ async function handleRequest(request) {
   const output = `
 <html>
 <meta charSet="utf-8"/>
-<pre><code>${input}</code></pre>
+<a href="https://ontouchstart-rustwasm-markdown-parser.ontouchstart.workers.dev">🏡</a>
+<h1>HTML</h1>
 ${parse(input)}
+<h1>Markdown</h1>
+<pre><code>${input}</code></pre>
 </html>
 `
   let res = new Response(output, { status: 200 })
