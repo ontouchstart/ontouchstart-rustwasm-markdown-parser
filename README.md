@@ -4,9 +4,7 @@ The default markdown file is in this repo [https://github.com/ontouchstart/ontou
 
 You can also parse external **raw** markdown file from a src url like
 
-```
 [https://ontouchstart-rustwasm-markdown-parser.ontouchstart.workers.dev/?src=https://raw.githubusercontent.com/cloudflare/cloudflare-docs/production/products/workers/src/content/tutorials/hello-world-rust/index.md](https://ontouchstart-rustwasm-markdown-parser.ontouchstart.workers.dev/?src=https://raw.githubusercontent.com/cloudflare/cloudflare-docs/production/products/workers/src/content/tutorials/hello-world-rust/index.md)
-```
 
 # 👷‍♀️🦀🕸️ `rustwasm-worker-template`
 
