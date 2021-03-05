@@ -9,7 +9,7 @@ addEventListener('fetch', event => {
 async function handleRequest(request) {
   const { url } = request;
   const url_obj = new URL(url);
-  const src = url_obj.searchParams.get('src') || 'https://raw.githubusercontent.com/cloudflare/rustwasm-worker-template/master/README.md';
+  const src = url_obj.searchParams.get('src') || 'https://raw.githubusercontent.com/ontouchstart/ontouchstart-rustwasm-markdown-parser/master/README.md';
 
   const input = await (await fetch(src)).text() || `# Hello World`;
   const { parse } = wasm_bindgen;
