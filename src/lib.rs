@@ -31,9 +31,5 @@ pub fn parse(markdown_input: &str) -> String {
     let mut html_output: String = String::with_capacity(markdown_input.len() * 3 / 2);
     html::push_html(&mut html_output, parser);
 
-    // Check that the output is what we expected.
-    let expected_html: &str = "<p>Hello world, this is a <del>complicated</del> <em>very simple</em> example.</p>\n";
-    assert_eq!(expected_html, &html_output);
-
     format!("{}", &html_output)
 }
