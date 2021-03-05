@@ -25,7 +25,10 @@ ${parse(input)}
 <pre><code>${input}</code></pre>
 </html>
 `
-  let res = new Response(output, { status: 200 })
-  res.headers.set('Content-type', 'text/html')
-  return res
+  const headers = new Headers({
+    'Content-Type': 'text/html',
+    'Access-Control-Allow-Origin': '*'
+  });
+  const res = new Response(output, { status: 200, headers });
+  return res;
 }
